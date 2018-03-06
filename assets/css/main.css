@@ -1,0 +1,213 @@
+body {
+    font-family: 'Tahoma', sans-serif;
+    background-image: url(../img/bgr1.jpg);
+    background-color: #0c739e;
+
+}
+
+#content {
+    width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px 0px #000;
+
+}
+
+#it {
+    display: block;
+    height: 177px;
+    width: auto;
+    float: right;
+
+}
+
+#info {
+    display: block;
+    color: #128aa7;
+    width: 180px;
+    height: 80px;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-left: 250px;
+}
+
+#im {
+    display: block;
+    width: 283px;
+    height: 177px;
+    float: left;
+    margin-left: 30px;
+}
+
+#im img {
+    margin-top: 15px;
+}
+
+#icon {
+    display: block;
+    height: 80px;
+    margin: 25px 25px 0px 0px;
+}
+
+
+#icon ul {
+    width: 60px;
+    height: 60px;
+    display: inline;
+
+}
+
+#icon ul li {
+    width: 60px;
+    height: 60px;
+    display: inline;
+
+}
+
+#icon ul li:nth-child(1) {
+    display: inline-block;
+
+    background: url(../img/indi.jpg) 0 5px no-repeat;
+    background-position: 50% 0%;
+
+}
+
+#icon ul li:nth-child(2) {
+    display: inline-block;
+
+    background: url(../img/nepal.jpg) 0 5px no-repeat;
+    background-position: 50% 0%;
+
+}
+
+#icon ul li:nth-child(3) {
+    display: inline-block;
+
+    background: url(../img/tibet.jpg) 0 5px no-repeat;
+    background-position: 50% 0%;
+
+}
+
+#icon ul li:nth-child(4) {
+    display: inline-block;
+
+    background: url(../img/butan.jpg) 0 5px no-repeat;
+    background-position: 50% 0%;
+
+}
+
+#icon ul li:nth-child(5) {
+    display: inline-block;
+
+    background: url(../img/lanka.jpg) 0 5px no-repeat;
+    background-position: 50% 0%;
+
+}
+
+#icon ul li:nth-child(6) {
+    display: inline-block;
+
+    background: url(../img/mald.jpg) 0 5px no-repeat;
+    background-position: 50% 0%;
+
+}
+
+#icon ul li a {
+    text-align: center;
+    display: block;
+    color: #128aa7;
+    font-size: 10pt;
+    margin-top: 50px;
+}
+
+
+
+
+/*Навигация*/
+
+#nav7,
+#nav7 ul,
+#nav7 li {
+    margin: 0;
+    padding: 0;
+}
+
+#nav7,
+#nav7 ul {
+    background: #343434;
+}
+
+#nav7 {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+
+#nav7 ul {
+    position: absolute;
+    z-index: 5;
+    display: none;
+}
+
+#nav7 li:hover ul {
+    display: block;
+}
+
+#nav7 li {
+    display: table-cell;
+    text-align: center;
+}
+
+#nav7 ul li {
+    display: block;
+    text-align: left;
+
+}
+
+#nav7 a {
+    display: block;
+    padding: 3px 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav7 ul a {
+    padding: 3px 15px;
+}
+
+#nav7 li:hover {
+    background: rgb(96, 145, 172);
+}
+
+
+/*Колонки*/
+
+#colon {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#lev {
+    flex: 1 auto;
+    width: 250px;
+    text-align: center;
+    color: #424c43;
+    background-color: white;
+    height: 100%;
+
+}
+
+#rig {
+    width: 250px;
+    flex: 1 auto;
+    text-align: center;
+    background-color: white;
+    color: #424c43;
+}
+
+#cent {
+    flex: 1 auto;
+    background-color: white;
+}

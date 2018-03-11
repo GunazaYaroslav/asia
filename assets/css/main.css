@@ -1,6 +1,7 @@
 body {
     font-family: 'Tahoma', sans-serif;
     background-image: url(../img/bgr1.jpg);
+    background-repeat: repeat-x;
     background-color: #0c739e;
 
 }
@@ -125,11 +126,13 @@ body {
 
 /*Навигация*/
 
+
 #nav7,
 #nav7 ul,
 #nav7 li {
     margin: 0;
     padding: 0;
+    
 }
 
 #nav7,
@@ -186,28 +189,29 @@ body {
 
 #colon {
     display: flex;
-    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: stretch;
 }
 
 #lev {
-    flex: 1 auto;
-    width: 250px;
+     line-height: 1.5;
+   width: 20%;
     text-align: center;
     color: #424c43;
-    background-color: white;
-    height: 100%;
-
+    background-color: #edeef0;
+   
 }
 
 #rig {
-    width: 250px;
-    flex: 1 auto;
+   width: 20%;
     text-align: center;
     background-color: white;
     color: #424c43;
+    background-color: #edeef0;
+     line-height: 1.5;
 }
 
 #cent {
-    flex: 1 auto;
+    width: 60%;
     background-color: white;
 }

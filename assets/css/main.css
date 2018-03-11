@@ -203,7 +203,7 @@ body {
 
 #lev {
     line-height: 1.5;
-    width: 20%;
+    width: 25%;
     text-align: center;
     color: #424c43;
     background-color: #edeef0;
@@ -211,7 +211,7 @@ body {
 }
 
 #rig {
-    width: 20%;
+    width: 25%;
     text-align: center;
     background-color: white;
     color: #424c43;
@@ -220,6 +220,6 @@ body {
 }
 
 #cent {
-    width: 60%;
+    width: 50%;
     background-color: white;
 }
